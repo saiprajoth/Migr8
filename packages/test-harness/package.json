@@ -1,0 +1,14 @@
+{
+  "name": "@migr8/test-harness",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "files": ["dist"],
+  "scripts": {
+    "lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\"",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "build": "tsup"
+  }
+}

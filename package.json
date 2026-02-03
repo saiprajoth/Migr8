@@ -1,0 +1,29 @@
+{
+  "name": "migr8",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "lint": "pnpm -r --sort lint",
+    "typecheck": "pnpm -r --sort typecheck",
+    "test": "pnpm -r --sort test",
+    "build": "pnpm -r --sort build",
+    "format": "prettier -w .",
+    "format:check": "prettier -c ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "changesets": "^1.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.3.0",
+    "tsup": "^8.2.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  }
+}

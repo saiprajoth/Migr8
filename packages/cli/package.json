@@ -1,0 +1,21 @@
+{
+  "name": "@migr8/cli",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "migr8": "dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "files": ["dist"],
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "scripts": {
+    "lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\"",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "build": "tsup",
+    "migr8": "node dist/index.js"
+  }
+}
