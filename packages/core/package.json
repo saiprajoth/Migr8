@@ -4,11 +4,17 @@
   "type": "module",
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\"",
     "typecheck": "tsc -p tsconfig.json",
     "test": "vitest run",
     "build": "tsup"
+  },
+  "dependencies": {
+    "yaml": "^2.8.2",
+    "zod": "^4.3.6"
   }
 }
