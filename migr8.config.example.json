@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "scope": "backend",
+  "targets": ["fastapi"],
+  "include": ["backend/**"],
+  "exclude": ["**/*.test.ts", "**/node_modules/**"],
+  "outDir": "migr8-out"
+}

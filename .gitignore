@@ -5,3 +5,4 @@ coverage
 .env
 .env.*
 pnpm-debug.log*
+migr8.config.json
