@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "scope": "backend",
+  "targets": ["go-gin"],
+  "include": ["api/**"],
+  "exclude": ["**/*.test.ts"],
+  "outDir": "migr8-out"
+}
