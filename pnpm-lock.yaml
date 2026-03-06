@@ -57,7 +57,11 @@ importers:
         specifier: ^4.3.6
         version: 4.3.6
 
-  packages/sdk: {}
+  packages/sdk:
+    dependencies:
+      zod:
+        specifier: ^4.3.6
+        version: 4.3.6
 
   packages/test-harness: {}
 
